@@ -36,42 +36,41 @@ public class Controler {
         List<String> subjectsPetrov = Arrays.asList("химия", "биология", "английский язык");
         Student petrov = new Student(22, "Петров", 4.4, subjectsPetrov);
 
-        // Создание еще 8 студентов
         List<String> subjectsSmith = Arrays.asList("физика", "математика", "английский язык");
-        Student smith = new Student(25, "Сидоров", 4.3, subjectsSmith);
+        Student sidorov = new Student(25, "Сидоров", 4.3, subjectsSmith);
 
         List<String> subjectsJohnson = Arrays.asList("физика", "английский язык", "биология");
-        Student johnson = new Student(24, "Блинов", 4.2, subjectsJohnson);
+        Student blinov = new Student(24, "Блинов", 4.2, subjectsJohnson);
 
         List<String> subjectsWilliams = Arrays.asList("физика", "математика", "английский язык");
-        Student williams = new Student(21, "Смирнов", 4.1, subjectsWilliams);
+        Student smirnov = new Student(21, "Смирнов", 4.1, subjectsWilliams);
 
         List<String> subjectsBrown = Arrays.asList("физика", "английский язык", "русский язык");
-        Student brown = new Student(20, "Максимов", 4.0, subjectsBrown);
+        Student maximov = new Student(20, "Максимов", 4.0, subjectsBrown);
 
         List<String> subjectsJones = Arrays.asList("физика", "английский язык", "математика");
-        Student jones = new Student(22, "Гагарин", 4.5, subjectsJones);
+        Student gagarin = new Student(22, "Гагарин", 4.5, subjectsJones);
 
         List<String> subjectsGarcia = Arrays.asList("физика", "английский язык", "математика");
-        Student garcia = new Student(23, "Курчатов", 4.4, subjectsGarcia);
+        Student kurchatov = new Student(23, "Курчатов", 4.4, subjectsGarcia);
 
         List<String> subjectsMartinez = Arrays.asList("физика", "математика", "русский язык");
-        Student martinez = new Student(24, "Соловьев", 4.3, subjectsMartinez);
+        Student solovev = new Student(24, "Соловьев", 4.3, subjectsMartinez);
 
         List<String> subjectsRodriguez = Arrays.asList("физика", "английский язык", "математика");
-        Student rodriguez = new Student(25, "Родионов", 4.2, subjectsRodriguez);
+        Student rodionov = new Student(25, "Родионов", 4.2, subjectsRodriguez);
 
         // Добавление студентов в список
         dataStudent.create(ivanov);
         dataStudent.create(petrov);
-        dataStudent.create(smith);
-        dataStudent.create(johnson);
-        dataStudent.create(williams);
-        dataStudent.create(brown);
-        dataStudent.create(jones);
-        dataStudent.create(garcia);
-        dataStudent.create(martinez);
-        dataStudent.create(rodriguez);
+        dataStudent.create(sidorov);
+        dataStudent.create(blinov);
+        dataStudent.create(smirnov);
+        dataStudent.create(maximov);
+        dataStudent.create(gagarin);
+        dataStudent.create(kurchatov);
+        dataStudent.create(solovev);
+        dataStudent.create(rodionov);
 
         // Создание преподавателей
         Teacher physicsTeacher = new Teacher(35, "Петров", "физика");
@@ -84,11 +83,15 @@ public class Controler {
         // Создание учебных групп
         List<Student> physicsStudents = new ArrayList<>();
         physicsStudents.add(ivanov);
-        physicsStudents.add(smith);
-        physicsStudents.add(johnson);
-        physicsStudents.add(williams);
-        physicsStudents.add(brown);
-
+        physicsStudents.add(sidorov);
+        physicsStudents.add(blinov);
+        physicsStudents.add(smirnov);
+        physicsStudents.add(maximov);
+        physicsStudents.add(gagarin);
+        physicsStudents.add(kurchatov);
+        physicsStudents.add(solovev);
+        physicsStudents.add(rodionov);
+             
         List<Student> chemistryStudents = new ArrayList<>();
         chemistryStudents.add(petrov);
 
