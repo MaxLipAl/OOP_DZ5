@@ -66,11 +66,11 @@ public class Controler {
         List<String> subjectsPetrov = Arrays.asList("химия", "биология", "английский язык");
         Student petrov = new Student(22, "Петров", 4.4, subjectsPetrov);
 
-        List<String> subjectsSmith = Arrays.asList("физика", "математика", "английский язык");
-        Student sidorov = new Student(25, "Сидоров", 4.3, subjectsSmith);
+        List<String> subjectsSidorov = Arrays.asList("физика", "математика", "английский язык");
+        Student sidorov = new Student(25, "Сидоров", 4.3, subjectsSidorov);
 
-        List<String> subjectsJohnson = Arrays.asList("физика", "английский язык", "биология");
-        Student blinov = new Student(24, "Блинов", 4.2, subjectsJohnson);
+        List<String> subjectsBlinov = Arrays.asList("физика", "английский язык", "биология");
+        Student blinov = new Student(24, "Блинов", 4.2, subjectsBlinov);
 
         List<String> subjectsSmirnov = Arrays.asList("физика", "математика", "английский язык");
         Student smirnov = new Student(21, "Смирнов", 4.1, subjectsSmirnov);
